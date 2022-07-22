@@ -31,5 +31,8 @@ public class Main {
 
         System.out.println(product1.getCategory().getName());
 
+        ProductService productService = new ProductService();
+        productService.add(product2);
+
     }
 }
