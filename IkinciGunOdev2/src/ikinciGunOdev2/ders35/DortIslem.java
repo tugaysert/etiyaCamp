@@ -1,4 +1,4 @@
-package ders35;
+package ikinciGunOdev2.ders35;
 
 
 public class DortIslem {

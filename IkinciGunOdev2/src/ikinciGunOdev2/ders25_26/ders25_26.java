@@ -1,4 +1,4 @@
-package ders25_26;
+package ikinciGunOdev2.ders25_26;
 
 public class ders25_26 {
     public static void main(String[] args) {

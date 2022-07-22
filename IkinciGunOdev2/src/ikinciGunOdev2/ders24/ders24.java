@@ -1,4 +1,4 @@
-package ders24;
+package ikinciGunOdev2.ders24;
 
 public class ders24 {
 

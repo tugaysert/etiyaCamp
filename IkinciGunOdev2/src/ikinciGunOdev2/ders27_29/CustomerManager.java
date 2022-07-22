@@ -1,4 +1,4 @@
-package ders27_29;
+package ikinciGunOdev2.ders27_29;
 
 public class CustomerManager {
     public void add() {

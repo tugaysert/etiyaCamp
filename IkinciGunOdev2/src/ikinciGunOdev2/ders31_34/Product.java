@@ -1,4 +1,4 @@
-package ders31_34;
+package ikinciGunOdev2.ders31_34;
 
 public class Product {
 
