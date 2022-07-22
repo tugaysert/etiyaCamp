@@ -1,3 +1,5 @@
+package ucuncuGunOdev2;
+
 public class UserManager {
 
     public void login(User user) {

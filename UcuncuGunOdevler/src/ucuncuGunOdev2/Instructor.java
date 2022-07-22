@@ -1,3 +1,5 @@
+package ucuncuGunOdev2;
+
 public class Instructor extends User {
 
     private String email;

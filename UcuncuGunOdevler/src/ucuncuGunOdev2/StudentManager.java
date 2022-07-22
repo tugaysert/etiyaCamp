@@ -1,3 +1,5 @@
+package ucuncuGunOdev2;
+
 public class StudentManager extends UserManager {
 
     public void getStudentId(Student student) {

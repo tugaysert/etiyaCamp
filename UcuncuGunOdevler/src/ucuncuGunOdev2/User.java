@@ -1,3 +1,5 @@
+package ucuncuGunOdev2;
+
 public class User {
 
     private int id;

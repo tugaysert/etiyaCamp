@@ -1,3 +1,5 @@
+package ucuncuGunOdev2;
+
 public class Student extends User {
 
     private String studentId;
