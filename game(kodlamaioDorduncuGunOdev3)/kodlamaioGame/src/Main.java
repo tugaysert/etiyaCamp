@@ -18,18 +18,18 @@ public class Main {
                 "Mustafa Tugay",
                 "Sert",
                 LocalDate.of(1997,8,13),
-                "17"
+                "172"
         );
 
-/*
-        Player updatedPlayer = new Player(
+
+      /*  Player updatedPlayer = new Player(
                 1,
-                "Mustafa ",
+                "Mustafa Tugay",
                 "Sert",
-                LocalDate.of(1997,8,13),
-                "17456"
-        );
-*/
+                LocalDate.of(1997,11,13),
+                "172"
+        );*/
+
         MernisServiceAdapter mernisServiceAdapter = new MernisServiceAdapter();
         IPlayerService playerService = new PlayerManager(mernisServiceAdapter, PlayerDatabase.getInstance());
         playerService.add(player);
