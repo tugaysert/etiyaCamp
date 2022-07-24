@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c17ca01d-042f-4c2a-befe-fdc14cb34f69" name="Changes" comment="-">
+      <change beforePath="$PROJECT_DIR$/../../IkinciGunOdev1" beforeDir="false" afterPath="$PROJECT_DIR$/../../IkinciGunOdev1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eCommerceKodlamaioBesinciGunOdev1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/GoogleReference/GoogleManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/business/abstracts/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/business/concretes/UserManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/core/abstracts/MailCheckService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/core/abstracts/SendMailService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/core/concretes/GoogleManagerAdapter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/core/concretes/SendMailManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/core/patterns/RegexMatches.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/entities/abstracts/BaseEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/entities/concretes/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/repository/abstracts/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/repository/concretes/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/eCommerceKodlamaioBesinciGunOdev1/ui/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GoogleReference/GoogleManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/abstracts/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/business/concretes/UserManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/abstracts/MailCheckService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/abstracts/SendMailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/concretes/GoogleManagerAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/concretes/SendMailManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/patterns/RegexMatches.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/abstracts/BaseEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/concretes/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/abstracts/UserDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/repository/concretes/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Login.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2COS0P1uevqTH24yQyqKDOU5aC4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/etiyacamp/eCommerce(kodlamaioBesinciGunOdev1)"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="eCommerceKodlamaioBesinciGunOdev1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c17ca01d-042f-4c2a-befe-fdc14cb34f69" name="Changes" comment="" />
+      <created>1658671914613</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658671914613</updated>
+      <workItem from="1658671917201" duration="3863000" />
+      <workItem from="1658699672580" duration="3744000" />
+    </task>
+    <task id="LOCAL-00001" summary="-">
+      <created>1658702336957</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658702336957</updated>
+    </task>
+    <task id="LOCAL-00002" summary="-">
+      <created>1658703137986</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658703137986</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-" />
+    <option name="LAST_COMMIT_MESSAGE" value="-" />
+  </component>
+</project>
