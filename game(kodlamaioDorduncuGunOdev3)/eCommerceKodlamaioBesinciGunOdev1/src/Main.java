@@ -16,7 +16,7 @@ public class Main {
                 new SendMailManager());
 
         userService.add(user);
-        userService.getAllUsers();
+        System.out.println(userService.getAllUsers());
         Login login = new Login(userService);
         login.loginWithGoogle(user.getEmail());
     }

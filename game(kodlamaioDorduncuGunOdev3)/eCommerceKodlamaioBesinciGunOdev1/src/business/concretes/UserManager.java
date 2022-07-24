@@ -38,7 +38,7 @@ public class UserManager implements UserService {
             return;
         }
 
-        if (checkIfEmailExist(user.getEmail())) ;
+        if (!checkIfEmailExist(user.getEmail())) ;
         else {
             System.out.println("email zaten kullaniliyor");
             return;
