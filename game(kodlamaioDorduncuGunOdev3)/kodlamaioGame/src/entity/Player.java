@@ -1,5 +1,7 @@
 package entity;
 
+import repository.PlayerDatabase;
+
 import java.time.LocalDate;
 
 public class Player {
@@ -9,7 +11,12 @@ public class Player {
     private LocalDate birthOfDate;
     private String nationalityId;
 
+    public Player() {
+//        PlayerDatabase.getInstance().add(this);
+    }
+
     public Player(int id, String firstName, String lastName, LocalDate birthOfDate, String nationalityId) {
+        this();
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -59,5 +66,16 @@ public class Player {
 
     public void setNationalityId(String nationalityId) {
         this.nationalityId = nationalityId;
+    }
+
+    @Override
+    public String toString() {
+        return "Player{" +
+                "id=" + id +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", birthOfDate=" + birthOfDate +
+                ", nationalityId='" + nationalityId + '\'' +
+                '}';
     }
 }
