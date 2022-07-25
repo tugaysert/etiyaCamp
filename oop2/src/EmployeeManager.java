@@ -1,20 +1,20 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeManager {
-    List<Logger> loggers;
+    private final List<Logger> loggers;
+    private final ILoggerHelper iLoggerHelper;
 
 
-    public EmployeeManager(List<Logger> loggers) {
+    public EmployeeManager(List<Logger> loggers, ILoggerHelper iLoggerHelper) {
         this.loggers = loggers;
-
+        this.iLoggerHelper = iLoggerHelper;
     }
 
     public void add(Employee employee) {
+        iLoggerHelper.runLoggers(employee, loggers);
         System.out.println("employee added.");
-       loggers.forEach(l -> l.log(employee.getFirstName()));
-
     }
+
 
 
 }

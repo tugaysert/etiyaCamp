@@ -10,7 +10,10 @@ public class Main {
         CustomerManager customerManager = new CustomerManager(logger);
         customerManager.add(new Customer());
 
-        EmployeeManager employeeManager = new EmployeeManager(Arrays.asList(new DatabaseLogger(), new CloudLogger(), new ElasticLogger()));
+        EmployeeManager employeeManager = new EmployeeManager(Arrays.asList(
+                new DatabaseLogger(),
+                new CloudLogger(),
+                new ElasticLogger()), new LoggerHelper());
         employeeManager.add(new Employee());
     }
 }
