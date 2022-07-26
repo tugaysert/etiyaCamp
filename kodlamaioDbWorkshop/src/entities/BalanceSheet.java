@@ -50,6 +50,6 @@ public class BalanceSheet {
 
     @Override
     public String toString() {
-        return "{" + getBalanceAmount() +" "+ getBalanceDate() +" "+ getCustomer().getCustomerNumber()+ "}";
+        return "{" + getBalanceAmount() + " " + getBalanceDate() + " " + getCustomer().getCustomerNumber() + "}";
     }
 }

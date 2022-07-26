@@ -7,18 +7,18 @@ public class Main {
     public static void main(String[] args) {
 
 
-        IndividualCustomer customer1 = new IndividualCustomer(
+        CommercialOperationsCustomer customer1 = new CommercialOperationsCustomer(
                 1,
                 100,
                 new Channel(1, "Twitter"),
                 "Mustafa",
                 "Sert",
-                "1215151");
+                "1215151",
+                LocalDateTime.now());
         Address address = new Address(1, "bireyselAdres1", customer1);
         customer1.getAddresses().add(address);
-        CommercialOperations commercialOperations = new CommercialOperations(1, LocalDateTime.now(), customer1);
         BalanceSheet balanceSheet = new BalanceSheet(1, 10000, LocalDateTime.now(), customer1);
-        commercialOperations.getBalanceSheets().add(balanceSheet);
+        customer1.getBalanceSheets().add(balanceSheet);
 
         CorporateCustomer corporateCustomer = new CorporateCustomer(
                 2,

@@ -1,11 +1,10 @@
 package entities;
 
-import java.util.List;
-
 public class IndividualCustomer extends Customer {
     private String firstName;
     private String lastName;
     private String nationalityNumber;
+    private CommercialOperationsCustomer commercialOperations;
 
 
     public IndividualCustomer(int id, int customerNumber, Channel channel, String firstName, String lastName, String nationalityNumber) {
