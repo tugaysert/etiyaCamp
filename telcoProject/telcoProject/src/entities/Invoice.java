@@ -6,12 +6,11 @@ public class Invoice {
 	private int id;
 	private Subscription subscription;
 	private LocalDate dateCreated, dueDate;
-	private boolean isPaid; // TODO: sonra bakalım sevgili pair 3
+	private boolean isPaid; // TODO
 
 
 
 	public Invoice(int id, Subscription subscription, LocalDate dateCreated, LocalDate dueDate, boolean isPaid) {
-		super();
 		this.id = id;
 		this.subscription = subscription;
 		this.dateCreated = dateCreated;
