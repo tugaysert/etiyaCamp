@@ -1,6 +1,10 @@
-package entities;
+package entities.concretes;
 
-public class Person implements IEntity{
+import entities.abstracts.IEntity;
+
+import java.util.Objects;
+
+public class Person implements IEntity {
     private int id;
     private String firstName;
     private String lastName;
@@ -53,5 +57,35 @@ public class Person implements IEntity{
 
     public void setNationalIdentity(String nationalIdentity) {
         this.nationalIdentity = nationalIdentity;
+    }
+
+    public String getName() {
+        return getFirstName() + " " + getLastName();
+
+    }
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+
+        if (obj.getClass() != this.getClass()) {
+            return false;
+        }
+
+        final Person other = (Person) obj;
+        /*if ((this.getName() == null) ? (other.getName() != null) : !this.getName().equals(other.getName())) {
+            return false;
+        }*/
+
+        return Objects.equals(this.getNationalIdentity(), other.getNationalIdentity());
+    }
+
+    @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 53 * hash + (this.getName() != null ? this.getName().hashCode() : 0);
+        hash = 53 * hash + this.getYearOfBirth();
+        return hash;
     }
 }

@@ -1,4 +1,4 @@
-package entities;
+package entities.concretes;
 
 public class Customer extends Person{
     private int cityId;
@@ -15,4 +15,6 @@ public class Customer extends Person{
     public void setCityId(int cityId) {
         this.cityId = cityId;
     }
+
+
 }
