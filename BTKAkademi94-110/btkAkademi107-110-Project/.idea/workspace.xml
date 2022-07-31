@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2eb652ad-4b9e-49cf-9925-7cb6bc76c3c5" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../btkAkademi94/.idea/workspace.xml" beforeDir="false" />
+    <list default="true" id="afadcd69-9676-4e19-874c-3aaef5d42280" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/business/abstracts/CampaignService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/business/abstracts/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/business/concretes/CourseManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/business/concretes/PercentCampaignManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/business/concretes/StandartCampaignManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataAccess/abstracts/ICourseDal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/dataAccess/concretes/CourseDal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/abstracts/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entities/concretes/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../BTKAkademi94-110/btkAkademi94/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../IkinciGunOdev1" beforeDir="false" afterPath="$PROJECT_DIR$/../../IkinciGunOdev1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -10,10 +20,22 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="2CifMRCI6wv9GhAFOvQHYraHEI9" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CifRWKiEDSQR1u3iotF6SfS1pN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -23,26 +45,52 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/etiyacamp/BTKAkademi94-110/btkAkademi107-110-Project",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="abstracts" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="btkAkademi107-110-Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2eb652ad-4b9e-49cf-9925-7cb6bc76c3c5" name="Changes" comment="" />
-      <created>1659290278212</created>
+      <changelist id="afadcd69-9676-4e19-874c-3aaef5d42280" name="Changes" comment="" />
+      <created>1659290319403</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1659290278212</updated>
-      <workItem from="1659290280967" duration="38000" />
+      <updated>1659290319403</updated>
+      <workItem from="1659290321652" duration="2863000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
