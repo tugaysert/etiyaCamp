@@ -2,7 +2,7 @@ package Entities;
 
 import java.time.LocalDate;
 
-public class BlockedCustomer{
+public class BlockedCustomer {
     private int id;
     private Customer customer;
     private LocalDate blockedDate;
